@@ -1,2 +1,12 @@
-<h1> Welcome to my Silly Joke Page </h1>
 
+<body>
+  <h1> Welcome to my Silly Joke Page </h1>
+  <br /><br />
+  <h2><%= @joke.question %></h2>
+  <h3><%= @joke.answer %></h3>
+  <br /><br /><br />
+  <div class="next_link"> 
+    <%= link_to 'Next Joke', root_path %>
+  </div>
+
+</body>
