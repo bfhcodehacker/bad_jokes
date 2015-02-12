@@ -20,22 +20,18 @@ body {
   background: #dddddd;
 }
 
-.next_link {
+.next-link {
   color: #003;
-  text-align: center-right;
+  text-align: right;
   text-decoration:none;
+  padding: 40px;
 }
 
-.next_link:link {
-  color: #003;
-  text-decoration:none;
+.next-link:link {
+  color:none;
 }
 
-.next_link:visited {
-  color: #003;
-  text-decoration:none;
+.next-link:visited {
+  color:none;
 }
-
-
-
 
