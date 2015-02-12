@@ -22,16 +22,15 @@ body {
 
 .next-link {
   color: #003;
-  text-align: right;
+  padding:40px;
   text-decoration:none;
-  padding: 40px;
-}
-
-.next-link:link {
-  color:none;
 }
 
 .next-link:visited {
   color:none;
+}
+
+.next-link:hover {
+  text-decoration:underline;
 }
 

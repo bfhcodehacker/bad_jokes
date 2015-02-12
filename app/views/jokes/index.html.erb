@@ -5,8 +5,6 @@
   <h2><%= @joke.question %></h2>
   <h3><%= @joke.answer %></h3>
   <br /><br /><br />
-  <div class="next-link"> 
-    <%= link_to 'Next Joke', root_path %>
-  </div>
+  <%= link_to 'Next Joke', root_path, :class => 'next-link' %>
 
 </body>
