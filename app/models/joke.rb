@@ -1,3 +1,4 @@
 class Joke < ActiveRecord::Base
-  validates :question, :answer => true
+  validates :question, :presence => true
+  validates :answer, :presence => true
 end
