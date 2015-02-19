@@ -2,6 +2,7 @@
 <%= simple_form_for @joke do |f| %>
   <%= f.input :question %>
   <%= f.input :answer %>
-  <%= f.submit 'Create' %>
+  <br />
+  <%= f.submit 'Create', :class => 'btn btn-danger' %>
 <% end %>
 
