@@ -21,16 +21,32 @@ body {
 }
 
 .next-link {
+  display: block;
   color: #003;
   padding:40px;
-  text-decoration:none;
+  text-decoration: none;
+  text-align: right;
 }
+
+.add-link {
+  color: #003;
+  text-decoration: none;
+}
+
 
 .next-link:visited {
   color:none;
 }
 
 .next-link:hover {
+  text-decoration:underline;
+}
+
+.add-link:visited {
+  color:none;
+}
+
+.add-link:hover {
   text-decoration:underline;
 }
 
